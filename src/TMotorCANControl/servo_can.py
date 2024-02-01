@@ -52,6 +52,22 @@ Servo_Params = {
             'GEAR_RATIO': 9.0, 
             'Use_derived_torque_constants': False, # true if you have a better model
         },
+        'AK80-64':{
+            'P_min' : -32000,#-3200 deg
+            'P_max' : 32000,#3200 deg
+            'V_min' : -100000,#-100000 rpm electrical speed
+            'V_max' : 100000,# 100000 rpm electrical speed
+            'Curr_min':-1500,#-60A is the acutal limit but set to -15A
+            'Curr_max':1500,#60A is the acutal limit but set to 15A
+            'T_min' : -15,#NM
+            'T_max' : 15,#NM
+            'Kt_TMotor' : 0.136, # from TMotor website (actually 1/Kvll)
+            'Current_Factor' : 0.59, # UNTESTED CONSTANT!
+            'Kt_actual': 0.206, # UNTESTED CONSTANT!
+            'GEAR_RATIO': 64.0, 
+            'NUM_POLE_PAIRS': 21,
+            'Use_derived_torque_constants': False, # true if you have a better model
+        },
         'AK80-9':{
             'P_min' : -32000,#-3200 deg
             'P_max' : 32000,#3200 deg
