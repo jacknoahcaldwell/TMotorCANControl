@@ -64,8 +64,7 @@ Servo_Params = {
             'Kt_TMotor' : 0.136, # from TMotor website (actually 1/Kvll)
             'Current_Factor' : 0.59, # UNTESTED CONSTANT!
             'Kt_actual': 0.206, # UNTESTED CONSTANT!
-            'GEAR_RATIO': 64.0, 
-            'NUM_POLE_PAIRS': 21,
+            'GEAR_RATIO': 64.0,
             'Use_derived_torque_constants': False, # true if you have a better model
         },
         'AK80-9':{
