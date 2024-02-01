@@ -65,6 +65,7 @@ Servo_Params = {
             'Current_Factor' : 0.59, # UNTESTED CONSTANT!
             'Kt_actual': 0.206, # UNTESTED CONSTANT!
             'GEAR_RATIO': 64.0,
+            'NUM_POLE_PAIRS': 21,
             'Use_derived_torque_constants': False, # true if you have a better model
         },
         'AK80-9':{
