@@ -1,7 +1,7 @@
 from TMotorCANControl.servo_can import TMotorManager_servo_can
 
 # CHANGE THESE TO MATCH YOUR DEVICE!
-Type = 'AK10-9'
+Type = 'PARSECMOTOR'
 ID = 0
 
 with TMotorManager_servo_can(motor_type=Type, motor_ID=ID) as dev:
